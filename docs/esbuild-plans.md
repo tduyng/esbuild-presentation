@@ -1,10 +1,10 @@
 # Esbuild
+An extremely fast bundler for the web
 
-# Plan d'action
+# Action plan
 - What is esbuild?
 - Major features
 - Who use esbuild?
-- Performance
 - Why is it fast?
 - A quick start
 
