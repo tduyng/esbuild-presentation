@@ -17,7 +17,7 @@ mdc: true
 hideInToc: true
 fonts:
   sans: 'Robot' # basically the text
-  serif: 'Robot Slab'  # use with `font-serif` css class from windicss
+  serif: 'Robot Slab' # use with `font-serif` css class from windicss
   mono: 'Fira Code' # for code blocks, inline code, etc.
 ---
 
@@ -40,15 +40,14 @@ Esbuild
   </a>
 </div>
 
-
 <!-- ------------------Start pages of slide here----------------------- -->
-
 ---
 layout: default
 hideInToc: true
 ---
 
 # Table of contents
+
 <Toc maxDepth="1"></Toc>
 
 ---
@@ -80,18 +79,18 @@ It is an extremely fast JavaScript and CSS bundler and minifier. Current build t
 
 <div class="absolute left-0 top-20px scale-70">
 
-|                             | Empty | Libraries | Mui | Synthetic |
-|-----------------------------|-----------|---------------|---------|---------------|
-| Esbuild                 | 0.046     | 0.142         | 0.192   | 0.685         |
-| Parcel: babel + terser  | 3.737     | 11.529        | 8.892   | 57.232        |
-| Rollup: babel + terser  | 3.121     | 13.056        | 9.495   | 37.689        |
-| Rollup: esbuild         | 1.874     | 5.553         | 5.746   | 14.612        |
-| Rollup: swc             | 1.788     | 5.966         | 5.802   | 14.644        |
-| Rspack                  | 0.192     | 1.308         | 0.607   | 5.730         |
-| Vite                    | 1.418     | 6.632         | 7.957   | 36.735        |
-| Webpack: babel + terser | 2.471     | 11.529        | 6.406   | 23.889        |
-| Webpack: esbuild        | 0.808     | 3.145         | 2.665   | 8.798         |
-| Webpack: swc            | 0.849     | 4.033         | 2.927   | 9.134         |
+|                         | Empty | Libraries | Mui   | Synthetic |
+| ----------------------- | ----- | --------- | ----- | --------- |
+| Esbuild                 | 0.046 | 0.142     | 0.192 | 0.685     |
+| Parcel: babel + terser  | 3.737 | 11.529    | 8.892 | 57.232    |
+| Rollup: babel + terser  | 3.121 | 13.056    | 9.495 | 37.689    |
+| Rollup: esbuild         | 1.874 | 5.553     | 5.746 | 14.612    |
+| Rollup: swc             | 1.788 | 5.966     | 5.802 | 14.644    |
+| Rspack                  | 0.192 | 1.308     | 0.607 | 5.730     |
+| Vite                    | 1.418 | 6.632     | 7.957 | 36.735    |
+| Webpack: babel + terser | 2.471 | 11.529    | 6.406 | 23.889    |
+| Webpack: esbuild        | 0.808 | 3.145     | 2.665 | 8.798     |
+| Webpack: swc            | 0.849 | 4.033     | 2.927 | 9.134     |
 
 </div>
 
@@ -148,6 +147,7 @@ mindmap
       Tsx
       Css
 ```
+
 [Source](https://stackshare.io/esbuild)
 
 ---
@@ -188,6 +188,7 @@ npm add -D esbuild
 ```
 
 [Build options details](https://esbuild.github.io/api/#build)
+
 ---
 
 ## Scripts mode
@@ -211,6 +212,7 @@ esbuild
     .catch(() => process.exit(1))
 
 ```
+
 ---
 
 ## An extremely simple React starter kit
@@ -239,7 +241,6 @@ esbuild src/index.html src/index.tsx \
 ```
 
 [Implementation details](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
-
 
 ---
 src: ./pages/thanks.md
