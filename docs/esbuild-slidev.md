@@ -57,11 +57,7 @@ hideInToc: true
 
 # What is esbuild?
 
-It is an extremely fast JavaScript and CSS bundler and minifier. 
-
-Current build tools for the web are 10-100x slower than they could be. 
-
-The main goal of this project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way
+It is an extremely fast JavaScript and CSS bundler and minifier. Current build tools for the web are 10-100x slower than they could be. The main goal of this project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way
 
 - It developed by Evan Wallace, creator of Figma
 - Written in Go
@@ -70,25 +66,44 @@ The main goal of this project is to bring about a new era of build tool performa
 
 ---
 
-## Performance
+## Benchmark
 
 <div grid="~ cols-2 gap-4">
-<div>
-
-[Learn more about benchmark details](https://esbuild.github.io/faq/#benchmark-details)
-
-
-</div>
-<div>
-<Tweet id="1448714353386086405" scale="0.65" />
-</div>
+<div><Tweet id="1448714353386086405" scale="0.65" /></div>
+<div><Tweet id="1459587741843394569" scale="0.595" /></div>
 </div>
 
 ---
 
-![Alt text](images/benchmark-js.png)
+<div grid="~ cols-2 gap-4">
 
-![Alt text](images/benchmark-ts.png)
+<div>
+<strong class="mb-10">Performance benchmark for most popular javascript bundlers in various configurations</strong>
+
+<div class="absolute left-0 top-20px scale-70">
+
+|                             | Empty | Libraries | Mui | Synthetic |
+|-----------------------------|-----------|---------------|---------|---------------|
+| Esbuild                 | 0.046     | 0.142         | 0.192   | 0.685         |
+| Parcel: babel + terser  | 3.737     | 11.529        | 8.892   | 57.232        |
+| Rollup: babel + terser  | 3.121     | 13.056        | 9.495   | 37.689        |
+| Rollup: esbuild         | 1.874     | 5.553         | 5.746   | 14.612        |
+| Rollup: swc             | 1.788     | 5.966         | 5.802   | 14.644        |
+| Rspack                  | 0.192     | 1.308         | 0.607   | 5.730         |
+| Vite                    | 1.418     | 6.632         | 7.957   | 36.735        |
+| Webpack: babel + terser | 2.471     | 11.529        | 6.406   | 23.889        |
+| Webpack: esbuild        | 0.808     | 3.145         | 2.665   | 8.798         |
+| Webpack: swc            | 0.849     | 4.033         | 2.927   | 9.134         |
+
+</div>
+
+</div>
+
+<div>
+<img class="max-h-full m-auto mt-20" src="images/build-time.png" alt="" />
+</div>
+
+</div>
 
 ---
 
@@ -136,6 +151,7 @@ mindmap
       Css
 ```
 [Source](https://stackshare.io/esbuild)
+
 ---
 
 # Why is it fast?

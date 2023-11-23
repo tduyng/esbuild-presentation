@@ -22,15 +22,28 @@ The main goal of this project is to bring about a new era of build tool performa
 - First release: 2020
 - 36.5k stars sur github
 
-## Performance
+## Benchmark
 
 - [Twitter](https://twitter.com/evanwallace/status/1448714353386086405)
 - [Learn more about benchmark details](https://esbuild.github.io/faq/#benchmark-details)
 
-![Alt text](images/benchmark-js.png)
+Performance benchmark for most popular javascript bundlers in various configurations
 
-![Alt text](images/benchmark-ts.png)
+|                             | **Empty** | **Libraries** | **Mui** | Synthetic |
+|-----------------------------|-----------|---------------|---------|---------------|
+| Esbuild                 | 0.046     | 0.142         | 0.192   | 0.685         |
+| Parcel: babel + terser  | 3.737     | 11.529        | 8.892   | 57.232        |
+| Rollup: babel + terser  | 3.121     | 13.056        | 9.495   | 37.689        |
+| Rollup: esbuild         | 1.874     | 5.553         | 5.746   | 14.612        |
+| Rollup: swc             | 1.788     | 5.966         | 5.802   | 14.644        |
+| Rspack                  | 0.192     | 1.308         | 0.607   | 5.730         |
+| Vite                    | 1.418     | 6.632         | 7.957   | 36.735        |
+| Webpack: babel + terser | 2.471     | 11.529        | 6.406   | 23.889        |
+| Webpack: esbuild        | 0.808     | 3.145         | 2.665   | 8.798         |
+| Webpack: swc            | 0.849     | 4.033         | 2.927   | 9.134         |
 
+
+![Alt text](images/build-time.png)
 
 # Major features
 
