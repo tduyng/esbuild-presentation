@@ -23,19 +23,19 @@ fonts:
 
 <!-- --------------------------Cover page------------------------------ -->
 
-<div class="text-5xl">
-<img src="images/esbuild-logo.svg" class="m-0 slidev-icon-btn" />
+<div class='text-5xl'>
+<img src='images/esbuild-logo.svg' class='m-0 slidev-icon-btn' />
 Esbuild
 </div>
 
 **An extremely fast bundler for the web**
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+<div class='abs-br m-6 flex gap-2'>
+  <button @click='$slidev.nav.openInEditor()' title='Open in Editor' class='text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white'>
     <carbon:edit />
   </button>
-  <a href="https://github.com/evanw/esbuild" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+  <a href='https://github.com/evanw/esbuild' target='_blank' alt='GitHub' title='Open in GitHub'
+    class='text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white'>
     <carbon-logo-github />
   </a>
 </div>
@@ -48,7 +48,7 @@ hideInToc: true
 
 # Table of contents
 
-<Toc maxDepth="1"></Toc>
+<Toc maxDepth='1'></Toc>
 
 ---
 
@@ -65,19 +65,19 @@ It is an extremely fast JavaScript and CSS bundler and minifier. Current build t
 
 ## Benchmark
 
-<div grid="~ cols-2 gap-4">
-<div><Tweet id="1448714353386086405" scale="0.65" /></div>
-<div><Tweet id="1459587741843394569" scale="0.595" /></div>
+<div grid='~ cols-2 gap-4'>
+<div><Tweet id='1448714353386086405' scale='0.65' /></div>
+<div><Tweet id='1459587741843394569' scale='0.595' /></div>
 </div>
 
 ---
 
-<div grid="~ cols-2 gap-4">
+<div grid='~ cols-2 gap-4'>
 
 <div>
-<strong class="mb-10">Performance benchmark for most popular javascript bundlers in various configurations</strong>
+<strong class='mb-10'>Performance benchmark for most popular javascript bundlers in various configurations</strong>
 
-<div class="absolute left-0 top-20px scale-70">
+<div class='absolute left-0 top-20px scale-70'>
 
 |                         | Empty | Libraries | Mui   | Synthetic |
 | ----------------------- | ----- | --------- | ----- | --------- |
@@ -97,7 +97,7 @@ It is an extremely fast JavaScript and CSS bundler and minifier. Current build t
 </div>
 
 <div>
-<img class="max-h-full m-auto mt-20" src="images/build-time.png" alt="" />
+<img class='max-h-full m-auto mt-20' src='images/build-time.png' alt='' />
 </div>
 
 </div>
@@ -159,7 +159,7 @@ mindmap
 - Everything in esbuild is written from scratch
 - Memory is used efficiently
 
-<div class="pt-12">
+<div class='pt-12'>
 Each one of these factors is only a somewhat significant speedup,
 but together they can result in a bundler that is multiple orders of magnitude faster than other bundlers commonly in use today
 </div>
@@ -175,10 +175,10 @@ but together they can result in a bundler that is multiple orders of magnitude f
 npm add -D esbuild
 
 # Add build command to package.json
-"scripts": {
-    "build-dev": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js --format=esm --target=es2022",
-    "build": "tsc --noEmit && build-dev",
-    "watch": "esbuild src/index.ts --bundle --watch --platform=node --outfile=dist/index.js --format=esm --target=es2022"
+'scripts': {
+    'build-dev': 'esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js --format=esm --target=es2022',
+    'build': 'tsc --noEmit && build-dev',
+    'watch': 'esbuild src/index.ts --bundle --watch --platform=node --outfile=dist/index.js --format=esm --target=es2022'
 }
 
 --bundle indicates that it should output only one file containing our entire bundle.
@@ -230,7 +230,7 @@ src/
 ╰─ types.d.ts
 
 # livereload.js
-new EventSource("/esbuild").addEventListener("change", () => location.reload());
+new EventSource('/esbuild').addEventListener('change', () => location.reload());
 
 # dev server command
 esbuild src/index.html src/index.tsx \
