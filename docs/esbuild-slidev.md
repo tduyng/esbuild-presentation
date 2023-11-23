@@ -21,7 +21,14 @@ fonts:
   mono: 'Fira Code' # for code blocks, inline code, etc.
 ---
 
-# Esbuild
+<!-- --------------------------Cover page------------------------------ -->
+
+<div class="center mt-0 p-0">
+<div class="text-5xl">
+<img src="images/esbuild-logo.svg" class="m-0 slidev-icon-btn" />
+Esbuild</div>
+
+</div>
 
 **An extremely fast bundler for the web**
 
@@ -35,6 +42,8 @@ fonts:
   </a>
 </div>
 
+
+<!-- ------------------Start pages of slide here----------------------- -->
 
 ---
 layout: default
@@ -60,6 +69,7 @@ The main goal of this project is to bring about a new era of build tool performa
 - 36.5k stars sur github
 
 ---
+
 ## Performance
 
 <div grid="~ cols-2 gap-4">
@@ -73,6 +83,12 @@ The main goal of this project is to bring about a new era of build tool performa
 <Tweet id="1448714353386086405" scale="0.65" />
 </div>
 </div>
+
+---
+
+![Alt text](images/benchmark-js.png)
+
+![Alt text](images/benchmark-ts.png)
 
 ---
 
@@ -110,7 +126,6 @@ mindmap
       Shelf
       Festalab
       BouygueTelecom
-      AndCards
       Wavy
       Nimble
     Compiled languages
@@ -141,7 +156,7 @@ but together they can result in a bundler that is multiple orders of magnitude f
 
 ## CLI mode
 
-```md {all|2|6|11-14|7|8|all}
+```py {all|2|6|11-14|7|8|all}
 # Install
 npm add -D esbuild
 
@@ -158,12 +173,12 @@ npm add -D esbuild
 --format=esm indicates that it should use ES Modules for imports and exports.
 ```
 
-[Learn more about the build options](https://esbuild.github.io/api/#build)
+[Build options details](https://esbuild.github.io/api/#build)
 ---
 
 ## Scripts mode
 
-```md
+```py
 # build.js
 import esbuild from'esbuild'
 import fp from 'fast-glob'
@@ -184,8 +199,9 @@ esbuild
 ```
 ---
 
-## An Extremely Simple React Starter Kit
-```md{all|2-10|13|16-20}
+## An extremely simple React starter kit
+
+```py{all|2-10|13|16-20}
 # Project structure
 src/
 ├─ components/
@@ -208,7 +224,7 @@ esbuild src/index.html src/index.tsx \
   --inject:src/livereload.js
 ```
 
-[See more](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
+[Implementation details](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
 
 
 ---

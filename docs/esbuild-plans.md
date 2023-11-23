@@ -27,6 +27,10 @@ The main goal of this project is to bring about a new era of build tool performa
 - [Twitter](https://twitter.com/evanwallace/status/1448714353386086405)
 - [Learn more about benchmark details](https://esbuild.github.io/faq/#benchmark-details)
 
+![Alt text](images/benchmark-js.png)
+
+![Alt text](images/benchmark-ts.png)
+
 
 # Major features
 
@@ -79,7 +83,7 @@ but together they can result in a bundler that is multiple orders of magnitude f
 
 ## CLI mode
 
-```md
+```py
 # Install
 npm add -D esbuild
 
@@ -100,7 +104,7 @@ npm add -D esbuild
 
 ## Scripts mode
 
-```md
+```py
 # build.js
 import esbuild from'esbuild'
 import fp from 'fast-glob'
@@ -120,7 +124,7 @@ esbuild
 
 ```
 ## An Extremely Simple React Starter Kit
-```md
+```py
 # Project structure
 src/
 ├─ components/
