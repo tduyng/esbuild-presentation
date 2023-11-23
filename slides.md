@@ -170,7 +170,7 @@ but together they can result in a bundler that is multiple orders of magnitude f
 
 ## CLI mode
 
-```py {all|2|6|11-14|7|8|all}
+```py{all|2|6|11-14|7|8|all}
 # Install
 npm add -D esbuild
 
