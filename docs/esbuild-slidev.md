@@ -23,11 +23,9 @@ fonts:
 
 <!-- --------------------------Cover page------------------------------ -->
 
-<div class="center mt-0 p-0">
 <div class="text-5xl">
 <img src="images/esbuild-logo.svg" class="m-0 slidev-icon-btn" />
-Esbuild</div>
-
+Esbuild
 </div>
 
 **An extremely fast bundler for the web**
@@ -242,11 +240,6 @@ esbuild src/index.html src/index.tsx \
 
 [Implementation details](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
 
-
----
-src: ./pages/learn-more.md
-hide: false
----
 
 ---
 src: ./pages/thanks.md

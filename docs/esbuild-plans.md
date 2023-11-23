@@ -25,7 +25,7 @@ The main goal of this project is to bring about a new era of build tool performa
 ## Benchmark
 
 - [Twitter](https://twitter.com/evanwallace/status/1448714353386086405)
-- [Learn more about benchmark details](https://esbuild.github.io/faq/#benchmark-details)
+- [Twitter](https://twitter.com/evanwallace/status/1459587741843394569)
 
 Performance benchmark for most popular javascript bundlers in various configurations
 
@@ -159,5 +159,3 @@ esbuild src/index.html src/index.tsx \
   --servedir=build --serve-fallback=src/index.html \
   --inject:src/livereload.js
 ```
-
-[See more](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
