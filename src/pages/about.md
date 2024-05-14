@@ -1,23 +1,25 @@
 ---
-layout: intro
+transition: fade
 growSeed: 20
 growOpacity: 0.3
-class: pl-25
+class: pl-30 pt-20
 hideInToc: true
 ---
 
-# Tien Duy NGUYEN
+# Qui suis-je?
 
-<div ml-1 class="[&>*]:important-leading-10 opacity-80">
-  Backend engineer at @Ekino<br>
+<div flex items-center pt-10>
+  <div flex flex-col gap-4 class="w-1/2">
+      <div text-xl ><ri-user-3-line color="orange"/> Tien Duy NGUYEN </div>
+      <div text-xl ><ph:code-bold color="orange"/> Backend engineer</div>
+      <div text-xl ><material-symbols:work-outline color="orange"/> Ekino </div>
+      <div text-xl ><material-symbols:home-outline color="orange"/> Paris </div>
+      <div text-xl ><mdi-github color="orange"/> tduyng </div>
+      <div text-xl ><mdi-twitter color="orange"/> tduyng </div>
+  </div>
+  <div flex flex-col justify-center w-full items-center>
+      <figure>
+        <img src="/public/avatar.png" rouded-full w-50>
+      </figure>
+  </div>
 </div>
-
-<div my-10 w-min flex="~ gap-1" items-center justify-center>
-  <div i-ri-github-line op50 ma text-xl/>
-  <div><a href="https://github.com/tduyng" target="_blank" class="border-none! font-300">tduyng</a></div>
-  <div i-ri-twitter-x-line op50 ma text-xl ml4/>
-  <div><a href="https://twitter.com/tduyng" target="_blank" class="border-none! font-300">tduyng</a></div>
-</div>
-
-<img src="/public/avatar.png" rounded-full w-35 abs-tr mt-42 mr-40  loading="lazy"/>
-<div flex="~ gap2"></div>

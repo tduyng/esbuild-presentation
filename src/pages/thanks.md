@@ -4,7 +4,7 @@ class: text-left
 growX: 50
 growY: 120
 hideInToc: true
-title: Thanks
+transition: fade
 ---
 
 # Thanks

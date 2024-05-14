@@ -1,7 +1,9 @@
 ---
 background: https://source.unsplash.com/collection/94734566/1920x1080
+theme: seriph
 class: text-center
 lineNumbers: false
+highlighter: shiki
 info: |
   ## Esbuild
   An extremely fast bundler for the web
@@ -13,19 +15,20 @@ title: Esbuild presentation
 transition: fade-out
 mdc: true
 hideInToc: true
+themeConfig:
+  primary: orange
 fonts:
   sans: "Robot" # basically the text
   serif: "Robot Slab" # use with `font-serif` css class from windicss
   mono: "Fira Code" # for code blocks, inline code, etc.
 ---
 
-<div class='text-5xl'>
+<div class='text-5xl' >
 <img src='/public/esbuild.png' class='m-0 slidev-icon-btn' loading="lazy"
      style='width: 80px; height: auto;' />
 ESBUILD
 </div>
-
-**An extremely fast bundler for the web**
+<div>An extremely fast bundler for the web</div>
 
 <div class='abs-br m-6 flex gap-2'>
 <button @click='slidev.nav.openInEditor()' title='Open in Editor' class='text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white'>
