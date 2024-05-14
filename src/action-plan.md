@@ -32,8 +32,8 @@ It is an extremely fast JavaScript and CSS bundler and minifier. Current build t
 
 # Benchmark
 
-- [Twitter](https://twitter.com/evanwallace/status/1448714353386086405)
-- [Twitter](https://twitter.com/evanwallace/status/1459587741843394569)
+- [Twitter 1448714353386086405](https://twitter.com/evanwallace/status/1448714353386086405)
+- [Twitter 1459587741843394569](https://twitter.com/evanwallace/status/1459587741843394569)
 
 Performance benchmark for most popular javascript bundlers in various configurations
 
