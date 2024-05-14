@@ -1,5 +1,4 @@
 ---
-theme: seriph
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -46,15 +45,23 @@ transition: fade-out
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidevis a web-based slides presenter. It's designed for developers to focus on writing content in Markdown while also having the power of HTML and Vue components.
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+- 📝 Markdown-based - use your favorite editors and workflow
+- 🧑‍💻 Developer Friendly - built-in syntax highlighting, live coding, etc.
+- 🎨 Themable - theme can be shared and used with npm packages
+- 🌈 Stylish - on-demand utilities via UnoCSS.
+- 🤹 Interactive - embedding Vue components seamlessly
+- 🎙 Presenter Mode - use another window, or even your phone to control your slides
+- 🎨 Drawing - draw and annotate on your slides
+- 🧮 LaTeX - built-in LaTeX math equations support
+- 📰 Diagrams - creates diagrams with textual descriptions
+- 🌟 Icons - Access to icons from any icon set directly
+- 💻 Editors - integrated editor, or extension for VS Code
+- 🎥 Recording - built-in recording and camera view
+- 📤 Portable - export into PDF, PNGs, or even a hostable SPA
+- ⚡️ Fast - instant reloading powered by Vite
+- 🛠 Hackable - using Vite plugins, Vue components, or any npm packages
 
 <br>
 <br>
