@@ -15,7 +15,7 @@ An extremely fast bundler for the web
 
 It is an extremely fast JavaScript and CSS bundler and minifier. Current build tools for the web are 10-100x slower than they could be.The main goal of this project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way
 
-- It developed by Evan Wallace, creator of Figma
+- Developed by Evan Wallace, creator of Figma
 - Written in Go
 - First release: 2020
 - 37.4k stars sur Github

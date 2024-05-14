@@ -19,5 +19,5 @@ hideInToc: true
   <div><a href="https://twitter.com/tduyng" target="_blank" class="border-none! font-300">tduyng</a></div>
 </div>
 
-<img src="avatar.png" rounded-full w-35 abs-tr mt-42 mr-40 />
+<img src="/public/avatar.png" rounded-full w-35 abs-tr mt-42 mr-40  loading="lazy"/>
 <div flex="~ gap2"></div>

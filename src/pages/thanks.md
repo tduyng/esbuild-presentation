@@ -4,6 +4,7 @@ class: text-left
 growX: 50
 growY: 120
 hideInToc: true
+title: Thanks
 ---
 
 # Thanks
@@ -15,3 +16,4 @@ hideInToc: true
     - https://github.com/s1owjke/js-bundler-benchmark
 - [An extremely simple React starter kit](https://jakelazaroff.com/words/an-extremely-simple-react-starter-kit/)
 - [Examples talks with sli.dev](https://github.com/antfu/talks)
+

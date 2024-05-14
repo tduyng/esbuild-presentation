@@ -1,7 +1,6 @@
 ---
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
-highlighter: shiki
 lineNumbers: false
 info: |
   ## Esbuild
@@ -21,8 +20,9 @@ fonts:
 ---
 
 <div class='text-5xl'>
-<img src='public/esbuild-logo.svg' class='m-0 slidev-icon-btn' />
-Esbuild
+<img src='/public/esbuild.png' class='m-0 slidev-icon-btn' loading="lazy"
+     style='width: 80px; height: auto;' />
+ESBUILD
 </div>
 
 **An extremely fast bundler for the web**
@@ -38,10 +38,8 @@ Esbuild
 </div>
 
 ---
-
 src: ./pages/about.md
 hide: false
-
 ---
 
 ---
@@ -58,7 +56,7 @@ hideInToc: true
 
 It is an extremely fast JavaScript and CSS bundler and minifier. Current build tools for the web are 10-100x slower than they could be.The main goal of this project is to bring about a new era of build tool performance, and create an easy-to-use modern bundler along the way
 
-- It developed by Evan Wallace, creator of Figma
+- Developed by Evan Wallace, creator of Figma
 - Written in Go
 - First release: 2020
 - 37.4k stars sur Github
@@ -116,7 +114,7 @@ It is an extremely fast JavaScript and CSS bundler and minifier. Current build t
 </div>
 
 <div>
-<img class='max-h-full m-auto mt-20' src='public/build-time.png' alt='' />
+<img class='max-h-full m-auto mt-20' src='/public/build-time.png' alt='build time' loading="lazy" />
 </div>
 
 </div>
@@ -160,7 +158,6 @@ mindmap
 ```
 
 ---
-preload: false
 hideInToc: true
 ---
 
@@ -202,7 +199,7 @@ npm add -D esbuild
 --format=esm indicates that it should use ES Modules for imports and exports.
 ```
 
-[Learn more about the build options](https://esbuild.github.io/api/#build)
+Learn more [here](https://esbuild.github.io/api/#build)
 
 ---
 hideInToc: true
@@ -263,5 +260,4 @@ esbuild src/index.html src/index.tsx \
 
 ---
 src: ./pages/thanks.md
-hide: false
 ---
