@@ -8,12 +8,12 @@
     "export": "slidev export --dark --per-slide --output ../esbuild.pdf"
   },
   "dependencies": {
-    "@iconify/json": "2.2.210",
-    "@slidev/cli": "latest",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@iconify/json": "2.2.315",
+    "@slidev/cli": "51.3.0",
+    "@slidev/theme-default": "0.25.0",
+    "@slidev/theme-seriph": "0.25.0"
   },
   "devDependencies": {
-    "playwright-chromium": "1.44.0"
+    "playwright-chromium": "1.51.0"
   }
 }
